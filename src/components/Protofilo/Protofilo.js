@@ -7,7 +7,7 @@ import image4 from "../image/Mouk up@2x.png";
 import image5 from "../image/MoukUp.png";
 import image6 from "../image/test1@2x.png";
 import image7 from "../../image/facebook.jpg";
-import image8 from "../image/Web 1920 – 1@2x.png";
+import image8 from "../../image/photo_2023-08-26_13-31-40.jpg";
 import image9 from "../../image/E-commerce.jpg";
 import image10 from "../../image/landing1.jpg";
 import image11 from "../../image/landing2.jpg";
@@ -221,6 +221,25 @@ const Protofilo = () => {
             <article className="Protofilo_item">
               <div className="Protofilo_item-image">
                 <a
+                  href="http://154.62.109.112:3001/"
+                  target="_blank"
+                >
+                  <img src={image8} alt="" />
+                </a>
+              </div>
+              <h3>Afia App</h3>
+              <p
+                style={{
+                  fontSize: "15px",
+                  opacity: "0.5",
+                }}
+              >
+                Click to visit the site
+              </p>
+            </article>
+            <article className="Protofilo_item">
+              <div className="Protofilo_item-image">
+                <a
                   href="https://saeedkoja.github.io/Landing_page1/"
                   target="_blank"
                 >
@@ -292,7 +311,7 @@ const Protofilo = () => {
             <article className="Protofilo_item">
               <div className="Protofilo_item-image">
                 {/* <a
-                  href="https://saeedkoja.github.io/Landing_page1/"
+                  href="../../image/facebook.jpg"
                   target="_blank"
                 > */}
                   <img src={image7} alt="" />

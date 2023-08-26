@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./About.css";
-import me from "../../image/profile_basic.png";
+import me from "../../image/IMG_20230826_151417_333.jpg";
 import { FaAward } from "react-icons/fa";
 import { HiUsers } from "react-icons/hi";
 import { HiFolderOpen } from "react-icons/hi";
@@ -61,12 +61,12 @@ const About = () => {
               <article className="about_card">
                 <HiUsers className="about_icon" />
                 <h5>Clients</h5>
-                <small>+35 worldwide</small>
+                <small>+6 worldwide</small>
               </article>
               <article className="about_card">
                 <HiFolderOpen className="about_icon" />
                 <h5>Projects</h5>
-                <small>+50 Completed</small>
+                <small>+10 Completed</small>
               </article>
             </div>
             <p>
