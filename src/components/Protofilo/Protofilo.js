@@ -275,7 +275,7 @@ const Protofilo = () => {
                 Click to visit the site
               </p>
             </article>
-            
+
             <article className="Protofilo_item">
               <div className="Protofilo_item-image">
                 <a href="https://saeedkoja.github.io/Landing_page2/" target="_blank">
@@ -310,12 +310,12 @@ const Protofilo = () => {
             </article>
             <article className="Protofilo_item">
               <div className="Protofilo_item-image">
-                {/* <a
-                  href="../../image/facebook.jpg"
+                <a
+                  href={image7}
                   target="_blank"
-                > */}
+                >
                   <img src={image7} alt="" />
-                {/* </a> */}
+                </a>
               </div>
               <h3>Social Media App</h3>
               <p
