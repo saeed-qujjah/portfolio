@@ -5,7 +5,6 @@ import image2 from "../image/Instagram Story.png";
 import image3 from "../image/Mouk up.png";
 import image4 from "../image/Mouk up@2x.png";
 import image5 from "../image/MoukUp.png";
-import image6 from "../image/test1@2x.png";
 import image7 from "../../image/facebook.jpg";
 import image8 from "../../image/photo_2023-08-26_13-31-40.jpg";
 import image9 from "../../image/E-commerce.jpg";
