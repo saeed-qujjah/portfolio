@@ -4,7 +4,7 @@ import image1 from "../image/Instagram Story – 1.png";
 import image2 from "../image/Instagram Story.png";
 import image3 from "../image/Mouk up.png";
 import image4 from "../image/Mouk up@2x.png";
-import image5 from "../image/MoukUp.png";
+import image5 from "../../image/photo_2023-09-24_15-10-48.jpg";
 import image7 from "../../image/facebook.jpg";
 import image8 from "../../image/photo_2023-08-26_13-31-40.jpg";
 import image9 from "../../image/E-commerce.jpg";
@@ -227,6 +227,25 @@ const Protofilo = () => {
                 </a>
               </div>
               <h3>Afia App</h3>
+              <p
+                style={{
+                  fontSize: "15px",
+                  opacity: "0.5",
+                }}
+              >
+                Click to visit the site
+              </p>
+            </article>
+            <article className="Protofilo_item">
+              <div className="Protofilo_item-image">
+                <a
+                  href="https://saeedkoja.github.io/KFC-website"
+                  target="_blank"
+                >
+                  <img src={image5} alt="" />
+                </a>
+              </div>
+              <h3>KFC WebSite</h3>
               <p
                 style={{
                   fontSize: "15px",
