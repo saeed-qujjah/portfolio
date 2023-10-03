@@ -220,7 +220,7 @@ const Protofilo = () => {
             <article className="Protofilo_item">
               <div className="Protofilo_item-image">
                 <a
-                  href="http://154.62.109.112:3001/"
+                  href="http://154.62.109.112:3050/"
                   target="_blank"
                 >
                   <img src={image8} alt="" />
