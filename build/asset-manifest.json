@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.669f93ac.css",
-    "main.js": "/portfolio/static/js/main.4ca80b49.js",
+    "main.js": "/portfolio/static/js/main.663fbb5a.js",
     "static/media/IMG_20230826_151417_333.jpg": "/portfolio/static/media/IMG_20230826_151417_333.b8c185e7170385597c6d.jpg",
     "static/media/profile_basic1.png": "/portfolio/static/media/profile_basic1.d3807b6dbcad8d32e47d.png",
     "static/media/Instagram Story.png": "/portfolio/static/media/Instagram Story.f9762581fd12ee13df6b.png",
     "static/media/Instagram Story – 1.png": "/portfolio/static/media/Instagram Story – 1.46461c18de01b0ad7fcf.png",
     "static/media/Mouk up@2x.png": "/portfolio/static/media/Mouk up@2x.4c5103ce57a932d4c1cb.png",
-    "static/media/Saeed_Koja.pdf": "/portfolio/static/media/Saeed_Koja.31ad46e740a1f42d0605.pdf",
+    "static/media/Saeed_Koja.pdf": "/portfolio/static/media/Saeed_Koja.8f1916d760e9dcf3b313.pdf",
     "static/media/Mouk up.png": "/portfolio/static/media/Mouk up.2f054cf8b033f8fe7df7.png",
     "static/media/facebook.jpg": "/portfolio/static/media/facebook.7882418aadd904b913ca.jpg",
     "static/media/photo_2023-08-26_13-31-40.jpg": "/portfolio/static/media/photo_2023-08-26_13-31-40.20e4b06385661b5789e0.jpg",
@@ -18,10 +18,10 @@
     "static/media/photo_2023-06-01_11-43-30.jpg": "/portfolio/static/media/photo_2023-06-01_11-43-30.4b379237df5ed617eeb2.jpg",
     "index.html": "/portfolio/index.html",
     "main.669f93ac.css.map": "/portfolio/static/css/main.669f93ac.css.map",
-    "main.4ca80b49.js.map": "/portfolio/static/js/main.4ca80b49.js.map"
+    "main.663fbb5a.js.map": "/portfolio/static/js/main.663fbb5a.js.map"
   },
   "entrypoints": [
     "static/css/main.669f93ac.css",
-    "static/js/main.4ca80b49.js"
+    "static/js/main.663fbb5a.js"
   ]
 }

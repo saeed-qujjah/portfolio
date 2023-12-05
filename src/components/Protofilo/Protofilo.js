@@ -3,7 +3,7 @@ import "./Protofilo.css";
 import image1 from "../image/Instagram Story – 1.png";
 import image2 from "../image/Instagram Story.png";
 import image3 from "../image/Mouk up.png";
-import image4 from "../image/Mouk up@2x.png";
+import image4 from "../../image/photo_2023-12-05_21-59-26.jpg";
 import image5 from "../../image/photo_2023-09-24_15-10-48.jpg";
 import image7 from "../../image/facebook.jpg";
 import image8 from "../../image/photo_2023-08-26_13-31-40.jpg";
@@ -219,14 +219,27 @@ const Protofilo = () => {
           >
             <article className="Protofilo_item">
               <div className="Protofilo_item-image">
-                <a
-                  href="http://154.62.109.112:3050/"
-                  target="_blank"
-                >
+                <a href="http://154.62.109.112:3050/" target="_blank">
                   <img src={image8} alt="" />
                 </a>
               </div>
               <h3>Afia App</h3>
+              <p
+                style={{
+                  fontSize: "15px",
+                  opacity: "0.5",
+                }}
+              >
+                Click to visit the site
+              </p>
+            </article>
+            <article className="Protofilo_item">
+              <div className="Protofilo_item-image">
+                <a href="http://154.62.109.112:3000/" target="_blank">
+                  <img src={image4} alt="" />
+                </a>
+              </div>
+              <h3>Wabel E-commerce</h3>
               <p
                 style={{
                   fontSize: "15px",
@@ -296,7 +309,10 @@ const Protofilo = () => {
 
             <article className="Protofilo_item">
               <div className="Protofilo_item-image">
-                <a href="https://saeedkoja.github.io/Landing_page2/" target="_blank">
+                <a
+                  href="https://saeedkoja.github.io/Landing_page2/"
+                  target="_blank"
+                >
                   <img src={image10} alt="" />
                 </a>
               </div>
@@ -328,10 +344,7 @@ const Protofilo = () => {
             </article>
             <article className="Protofilo_item">
               <div className="Protofilo_item-image">
-                <a
-                  href={image7}
-                  target="_blank"
-                >
+                <a href={image7} target="_blank">
                   <img src={image7} alt="" />
                 </a>
               </div>

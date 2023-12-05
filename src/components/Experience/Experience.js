@@ -67,14 +67,9 @@ const Experience = () => {
                   </div>
                 </article>
                 <article className="experience_details">
-                  {/* <HiBadgeCheck className="experience_details-icon" />
-                  <div>
-                    <h4>BootStrap</h4>
-                    <small className="text-light">Intermediate</small>
-                  </div> */}
                   <HiBadgeCheck className="experience_details-icon" />
                   <div>
-                    <h4>Tailwind Css</h4>
+                    <h4>Java Script</h4>
                     <small className="text-light">Intermediate</small>
                   </div>
                 </article>
@@ -95,6 +90,13 @@ const Experience = () => {
                   </div>
                 </article>
                 <article className="experience_details">
+                  <HiBadgeCheck className="experience_details-icon" />
+                  <div>
+                    <h4>Next.js</h4>
+                    <small className="text-light">Beginner</small>
+                  </div>
+                </article>
+                <article className="experience_details">
                   {/* <HiBadgeCheck className="experience_details-icon" />
                   <div>
                     <h4>Tailwind Css</h4>
@@ -104,9 +106,14 @@ const Experience = () => {
               </div>
               <div className="experience_content-box-react">
                 <article className="experience_details">
+                  {/* <HiBadgeCheck className="experience_details-icon" />
+                  <div>
+                    <h4>BootStrap</h4>
+                    <small className="text-light">Intermediate</small>
+                  </div> */}
                   <HiBadgeCheck className="experience_details-icon" />
                   <div>
-                    <h4>Java Script</h4>
+                    <h4>Tailwind Css</h4>
                     <small className="text-light">Intermediate</small>
                   </div>
                 </article>
@@ -115,6 +122,13 @@ const Experience = () => {
                   <div>
                     <h4>Socket.IO</h4>
                     <small className="text-light">Intermediate</small>
+                  </div>
+                </article>
+                <article className="experience_details">
+                  <HiBadgeCheck className="experience_details-icon" />
+                  <div>
+                    <h4>TypeScript</h4>
+                    <small className="text-light">Beginner</small>
                   </div>
                 </article>
               </div>
