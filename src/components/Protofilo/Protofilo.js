@@ -29,7 +29,20 @@ import image1111 from "../image/11.jpg";
 import image1212 from "../image/12.jpg";
 import image4 from "../../image/photo_2023-12-05_21-59-26.jpg";
 import image5 from "../../image/photo_2023-09-24_15-10-48.jpg";
-import image7 from "../../image/facebook.jpg";
+import facebook1 from "../../image/facebook.jpg";
+import facebook2 from "../../image/facebook1.jpg";
+import facebook3 from "../../image/facebook2.jpg";
+import facebook4 from "../../image/facebook3.jpg";
+import facebook5 from "../../image/facebook4.jpg";
+import solidus1 from "../../image/solidus1.jpg";
+import solidus2 from "../../image/solidus2.jpg";
+import solidus3 from "../../image/solidus3.jpg";
+import solidus4 from "../../image/solidus4.jpg";
+import solidus5 from "../../image/solidus5.jpg";
+import solidus6 from "../../image/solidus6.jpg";
+import solidus7 from "../../image/solidus7.jpg";
+import solidus8 from "../../image/solidus8.jpg";
+import solidus9 from "../../image/solidus9.jpg";
 import image8 from "../../image/photo_2023-08-26_13-31-40.jpg";
 import image9 from "../image/baytii.jpg";
 import image10 from "../../image/landing1.jpg";
@@ -174,22 +187,28 @@ const Protofilo = () => {
                     <img alt="Add Real Estate Page" src={image3RealEstate} />
                   </a>
                   <a href={image4RealEstate} style={{ display: "none" }}>
-                    <img
-                      alt="Add News Page"
-                      src={image4RealEstate}
-                    />
+                    <img alt="Add News Page" src={image4RealEstate} />
                   </a>
                   <a href={image5RealEstate} style={{ display: "none" }}>
-                    <img alt="Advertise a Property Skeleton Page" src={image5RealEstate} />
+                    <img
+                      alt="Advertise a Property Skeleton Page"
+                      src={image5RealEstate}
+                    />
                   </a>
                   <a href={image6RealEstate} style={{ display: "none" }}>
-                    <img alt="Advertise a Property Page" src={image6RealEstate} />
+                    <img
+                      alt="Advertise a Property Page"
+                      src={image6RealEstate}
+                    />
                   </a>
                   <a href={image7RealEstate} style={{ display: "none" }}>
                     <img alt="Customer Reviews Page" src={image7RealEstate} />
                   </a>
                   <a href={image8RealEstate} style={{ display: "none" }}>
-                    <img alt="Add Area Modal for Project" src={image8RealEstate} />
+                    <img
+                      alt="Add Area Modal for Project"
+                      src={image8RealEstate}
+                    />
                   </a>
                   <a href={image9RealEstate} style={{ display: "none" }}>
                     <img alt="Add Project Page" src={image9RealEstate} />
@@ -209,6 +228,54 @@ const Protofilo = () => {
                 </LightGallery>
               </div>
               <h3>Real Estates Dashboard</h3>
+              <p
+                style={{
+                  fontSize: "15px",
+                  opacity: "0.5",
+                }}
+              >
+                Click to view the site
+              </p>
+            </article>
+
+            <article className="Protofilo_item">
+              <div className="Protofilo_item-image">
+                <LightGallery
+                  // onInit={onInit}
+                  className="gallery"
+                  speed={500}
+                  plugins={[lgThumbnail, lgZoom, lgFullscreen]}
+                >
+                  <a href={solidus1}>
+                    <img alt="Hero Section" src={solidus1} />
+                  </a>
+                  <a href={solidus2} style={{ display: "none" }}>
+                    <img alt="About Solidus Section" src={solidus2} />
+                  </a>
+                  <a href={solidus3} style={{ display: "none" }}>
+                    <img alt="....." src={solidus3} />
+                  </a>
+                  <a href={solidus4} style={{ display: "none" }}>
+                    <img alt="Products Section" src={solidus4} />
+                  </a>
+                  <a href={solidus5} style={{ display: "none" }}>
+                    <img alt="Services Section" src={solidus5} />
+                  </a>
+                  <a href={solidus6} style={{ display: "none" }}>
+                    <img alt="Explain Our Security" src={solidus6} />
+                  </a>
+                  <a href={solidus7} style={{ display: "none" }}>
+                    <img alt="About Us Section" src={solidus7} />
+                  </a>
+                  <a href={solidus8} style={{ display: "none" }}>
+                    <img alt="Contact Us Section" src={solidus8} />
+                  </a>
+                  <a href={solidus9} style={{ display: "none" }}>
+                    <img alt="Footer" src={solidus9} />
+                  </a>
+                </LightGallery>
+              </div>
+              <h3>Solidus Landing Page</h3>
               <p
                 style={{
                   fontSize: "15px",
@@ -312,7 +379,7 @@ const Protofilo = () => {
               </p>
             </article> */}
 
-            <article className="Protofilo_item">
+            {/* <article className="Protofilo_item">
               <div className="Protofilo_item-image">
                 <a href={image7} target="_blank">
                   <img src={image7} alt="" />
@@ -326,6 +393,42 @@ const Protofilo = () => {
                 }}
               >
                 Click to view the design
+              </p>
+            </article> */}
+
+            <article className="Protofilo_item">
+              <div className="Protofilo_item-image">
+                <LightGallery
+                  // onInit={onInit}
+                  className="gallery"
+                  speed={500}
+                  plugins={[lgThumbnail, lgZoom, lgFullscreen]}
+                >
+                  <a href={facebook1}>
+                    <img alt="Home Page and Posts List" src={facebook1} />
+                  </a>
+                  <a href={facebook2} style={{ display: "none" }}>
+                    <img alt="Login Page" src={facebook2} />
+                  </a>
+                  <a href={facebook3} style={{ display: "none" }}>
+                    <img alt="Notifications View" src={facebook3} />
+                  </a>
+                  <a href={facebook4} style={{ display: "none" }}>
+                    <img alt="Profile Page" src={facebook4} />
+                  </a>
+                  <a href={facebook5} style={{ display: "none" }}>
+                    <img alt="Messanger Page" src={facebook5} />
+                  </a>
+                </LightGallery>
+              </div>
+              <h3>Small Social Media App</h3>
+              <p
+                style={{
+                  fontSize: "15px",
+                  opacity: "0.5",
+                }}
+              >
+                Click to view the site
               </p>
             </article>
           </div>
