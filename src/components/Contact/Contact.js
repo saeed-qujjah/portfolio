@@ -30,6 +30,7 @@ const Contact = () => {
   //       }
   //     );
   // };
+
   return (
     <Element name="Contact">
       <section className="Contact">
@@ -37,22 +38,18 @@ const Contact = () => {
         <h2>Contact Me</h2>
         <div className="container contact_container">
           <div className="contact_options">
-            <article className="contact_option">
-              <HiOutlineMail className="contact_option-icon" />
-              <h4>Email</h4>
-              <h5>saeedkojastudy@gmail.com</h5>
-              <a href="mailto:saeedkojastudy@gmail.com" target="_blank">
+            <a href="mailto:saeedalqujjah@outlook.com" target="_blank">
+              <article className="contact_option">
+                <HiOutlineMail className="contact_option-icon" />
+
+                <h3>Email</h3>
+                <h4>saeedalqujjah@outlook.com</h4>
+                {/* <a href="mailto:saeedkojastudy@gmail.com" target="_blank">
                 Send a Message
-              </a>
-            </article>
-            <article className="contact_option">
-              <RiMessengerLine className="contact_option-icon" />
-              <h4>Messenger</h4>
-              <h5>S A E E D</h5>
-              <a href="https://www.facebook.com/profile.php?id=100028222757290&mibextid=ZbWKwL" target="_blank">
-                Send a Message
-              </a>
-            </article>
+              </a> */}
+              </article>
+            </a>
+
             <article className="contact_option">
               <FaWhatsapp className="contact_option-icon" />
               <h4>Whatsapp</h4>

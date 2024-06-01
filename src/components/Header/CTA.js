@@ -1,5 +1,5 @@
 import React from "react";
-import pdf from "../../image/Saeed_Koja.pdf";
+import pdf from "../../image/saeed-al-qujjah.pdf";
 import { Link } from "react-scroll";
 const CTA = () => {
   return (

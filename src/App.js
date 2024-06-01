@@ -1,4 +1,3 @@
-import "./App.css";
 import Header from "./components/Header/Header";
 import Nav from "./components/Nav/Nav";
 import About from "./components/About/About";
@@ -12,7 +11,7 @@ import { useState } from "react";
 import Skills from "./components/Skills/Skills";
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <Header />
       <Nav />
       <About />

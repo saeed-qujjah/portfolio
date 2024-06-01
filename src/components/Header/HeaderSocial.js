@@ -6,12 +6,12 @@ const HeaderSocial = () => {
       {/* <a href="https://linkedin.com" target="_blank">
         <BsLinkedin style={{ color: "#4db5ff" }} />
       </a> */}
-      <a href="https://github.com/SaeedKoja" target="_blank">
+      <a href="https://github.com/saeed-qujjah" target="_blank">
         <BsGithub style={{ color: "#4db5ff" }} />
       </a>
-      <a href="https://www.facebook.com/profile.php?id=100028222757290&mibextid=ZbWKwL" target="_blank">
-        <BsFacebook style={{ color: "#4db5ff" }} />
-      </a>
+      {/* <a href="https://www.linkedin.com/in/saeed-qujjah/" target="_blank">
+        <BsLinkedin style={{ color: "#4db5ff" }} />
+      </a> */}
     </div>
   );
 };

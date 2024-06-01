@@ -8,6 +8,7 @@ footer {
 footer a {
   color: var(--color-bg);
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 .footer_logo {
   font-size: 2rem;
@@ -60,5 +61,11 @@ footer a {
   }
   .footer_socials {
     margin-bottom: 2.6rem;
+  }
+  .footer_copyright {
+    font-size: 16px;
+    margin-bottom: 5rem;
+    color: var(--color-bg);
+    letter-spacing: 2px;
   }
 }

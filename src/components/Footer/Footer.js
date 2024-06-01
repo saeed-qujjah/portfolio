@@ -3,7 +3,7 @@ import "./Footer.css";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { Element, Link } from "react-scroll";
-import { BsGithub } from "react-icons/bs";
+import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
 const Footer = () => {
   return (
     <Element name="">
@@ -88,9 +88,9 @@ const Footer = () => {
         </ul>
         <div className="footer_socials">
           <a href="https://www.facebook.com/profile.php?id=100028222757290&mibextid=ZbWKwL" target="_blank">
-            <FaFacebook />
+            <BsFacebook />
           </a>
-          <a href="https://github.com/SaeedKoja" target="_blank">
+          <a href="https://github.com/saeed-qujjah" target="_blank">
             <BsGithub />
           </a>
         </div>

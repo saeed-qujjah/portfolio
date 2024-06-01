@@ -13,15 +13,15 @@ const Header = () => {
         <div className="container header_container">
           <h5>Hello, My Name is</h5>
           <div>
-            <h1>Saeed Koja</h1>
+            <h1>Saeed Qujjah</h1>
           </div>
-          <h5 className="text-light">And I'm A Front End React Developer</h5>
+          <h5 className="text-light">And I'm A Front End web Developer</h5>
           <CTA />
           <HeaderSocial />
           <div className="me">
             <img src={cv} alt="saeed" />
           </div>
-          <Link to="Contact" className="scroll_down">
+          <Link to="About" className="scroll_down">
             Scroll Down
           </Link>
         </div>

@@ -1,5 +1,5 @@
 {
-  "homepage":"https://SaeedKoja.github.io/portfolio",
+  "homepage": "https://saeed-qujjah.github.io/portfolio",
   "name": "react-protogilo",
   "version": "0.1.0",
   "private": true,
@@ -9,7 +9,9 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
+    "embla-carousel-react": "^8.0.2",
     "framer-motion": "^10.15.0",
+    "lightgallery": "^2.7.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
